@@ -1,13 +1,14 @@
 XBMC Steam Launcher.
 
-Launches Steam from within XBMC - It will close XBMC, launch Steam in Big Picture mode and when Steam is exited XBMC will restart. Steam also comes with a full featured web browser than can be controlled with a game pad or remote and plays back flash content. It works with Windows, Linux and quite possibly OSX, but this hasn't been tested.
+A XBMC addon to launch Steam from within XBMC - It will close XBMC, launch Steam in Big Picture mode and when Steam is exited XBMC will restart. Steam also comes with a full featured web browser than can be controlled with a game pad or remote and plays back flash content. It works with Windows, Linux and quite possibly OSX, but this hasn't been tested.
 
-On Windows x64 + Linux the settings within the addon should work provided Steam and XBMC are installed in their default directories. Linux users need to make the script that launches Steam executable:
+Linux users need to make the script that launches Steam executable:
 
 Code:
 chmod +x ~/.xbmc/addons/script.steam.launcher/resources/steam-launch.sh
 
-For Windows 32bit/non standard install locations etc you can edit the addon zip file before installing:
+The settings within the addon should work provided Steam and XBMC are installed in their default directories. 
+For non standard install locations etc you can edit the addon zip file before installing:
 
 Windows: Edit the file /script.steam.launcher/resources/steam-launch.bat
 
@@ -27,3 +28,4 @@ Uninstalling the addon, making the above changes and reinstalling has no effect 
 
 http://forum.xbmc.org/showthread.php?tid=157499
 http://store.steampowered.com/bigpicture
+http://xbmc.org/
