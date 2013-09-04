@@ -1,0 +1,51 @@
+0.0.1
+
+First version,
+
+0.1.0
+
+Reworked the windows side, now xbmc restarts once steam is exited.
+Thanks to malte for Rom Collection Browser. http://forum.xbmc.org/showthread.php?tid=70115
+Thanks to JohnnyD2 for VB scripts http://forum.xbmc.org/showthread.php?tid=70115&pid=960394#pid960394
+I used their work to improve the addon
+
+0.1.1
+
+Reworked linux side, no xbmc restarts after steam is closed.
+Thanks to malte for Rom Collection Browser. http://forum.xbmc.org/showthread.php?tid=70115
+Thanks to Resandro for Arcade Browser. http://forum.xbmc.org/showthread.php?tid=48983
+I used their work to improve the addon
+
+0.1.2
+
+Minor change to allow install on osx. Other small changes.
+
+0.1.3
+
+Additions to Windows scripting: Xbmc will stay closed if Steam updates itself, it will wait for up to 5 seconds for Steam to restart. If steam is already open Xbmc will exit and Steam will switch to big picture mode.
+
+0.1.4
+Moved scripts into new directory.
+
+0.1.5
+Windows command windows now hidden.
+
+0.1.6
+Reworked Linux scripting - If steam is already open Xbmc will exit and Steam will switch to big picture mode.
+Reorganised files.
+
+0.1.7
+Small fix
+
+0.1.8
+Linux now uses a lockfile to prevent multiple instances of xbmc reopening if Steam has been exited to desktop and xbmc re-opened.
+
+0.1.9 
+New windows scripting
+
+0.2.0 
+Windows checks wether its 32 or 64 bit.
+New icon.
+
+0.2.2
+Changes to steam-launch.bat and default.py
