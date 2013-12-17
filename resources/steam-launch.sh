@@ -33,11 +33,12 @@ esac
 # Is Steam running?
 if [ $STEAM_PID ]
 then
-        $STEAM_BIN steam://open/bigpicture #steam is brought to focus better this way
-        echo "Steam already running"
+        #$STEAM_BIN steam://open/bigpicture #steam is brought to focus better this way
+        /usr/bin/returntosteam.sh
+        echo "SteamOs already running"
 else
-	$STEAM_BIN -bigpicture #steam opens better like this if not already open
-	echo "Steam not running, launching"
+	$STEAM_BIN -tenfoot -steamos -enableremotecontrol #steam opens better like this if not already open
+	echo "SteamOs not running, launching"
 fi
 
 # Create lock file to prevent multiple instances of xbmc opening if addon has been run multiple times.
